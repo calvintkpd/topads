@@ -1,0 +1,109 @@
+.ta-inventory {
+	width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.ta-inventory .ta-cpm {
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.ta-inventory .ta-cpm a {
+  text-decoration: none;
+}
+.ta-inventory .ta-cpm > a {
+    color: rgba(0,0,0,0.54);
+}
+.ta-inventory .ta-cpm .ta-shop-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    white-space: nowrap;
+    text-align: left;
+    border-radius: 3px;
+}
+.ta-inventory .ta-cpm .ta-shop-img img {
+    border-radius: 3px;
+}
+
+.ta-inventory .ta-cpm .ta-shop-img img.img_toa {
+    padding: 10px 5px 0;
+}
+.ta-inventory .ta-cpm .ta-badge-img {
+    vertical-align: middle;
+}
+.ta-inventory .ta-cpm .ta-badge-img img {
+    width: 14px;
+    margin: 0 3px;
+}
+.ta-inventory .ta-cpm .ta-shop-detail {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.ta-inventory .ta-cpm .ta-shop-detail .ta-shop-detail-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    line-height: 15px;
+}
+.ta-inventory .ta-cpm .ta-shop-detail .ta-promoted-text {
+    font-size: 10px;
+    color: rgba(0,0,0,0.38);
+}
+.ta-inventory .ta-cpm .ta-shop-detail .ta-shop-name {
+    font-size: 12px;
+    color: rgba(0,0,0,0.38);
+    vertical-align: middle;
+}
+.ta-inventory .ta-cpm .ta-shop-slogan {
+    margin-top: 2px;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.ta-inventory .clearfix {
+    clear: both;
+}
+.ta-inventory .ta-cpm .ta-shop-img img {
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+}
+.ta-inventory .ta-slogan-headline {
+    color: rgba(0,0,0,.54);
+}
+@media(max-width:380px) {
+    .ta-inventory .ta-cpm .ta-shop-detail .ta-shop-name {
+        font-size: 11px;
+    }
+    .ta-inventory .ta-slogan-headline {
+        font-size: 11px;
+    }
+    .ta-inventory .ta-cta-headline {
+        font-size: 11px;
+    }
+    .ta-inventory .ta-cpm .ta-shop-slogan {
+        line-height: 16px;
+    }
+    .ta-inventory .ta-cpm .ta-shop-img {
+        width: 40px;
+    }
+    .ta-inventory .ta-cpm .ta-shop-img {
+        width: 40px;
+        height: 40px;
+    }
+    .ta-inventory .ta-cpm {
+        height: 75px;
+    }
+}
+
+.ta-inventory .ta-cta-headline {
+    color: #42b549;
+}
